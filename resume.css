@@ -95,13 +95,13 @@ h4 {
 }
 
 .middle-underphoto {
-  display: flex;
+  text-align: center;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
-h1 {
-  margin: auto;
+.name {
   padding: 8.625rem 0 1.0625rem;
   height: 2.125rem;
   font-family: "Inter";
@@ -110,8 +110,7 @@ h1 {
   font-size: 1.75rem;
 }
 
-h5 {
-  margin: auto;
+.profession {
   padding-bottom: 3.3125rem;
   font-family: "Inter";
   font-style: normal;
@@ -119,6 +118,7 @@ h5 {
   font-size: 1.0625rem;
 }
 hr {
+  margin: auto;
   margin-bottom: 2.75rem;
   width: 45.485%;
   border: 0.1875rem solid #d9d9d9;
